@@ -1,0 +1,272 @@
+/** ID styles **/
+#wpbody-content, #wpcontent{
+  background: #f1f1f1;
+}
+#kd{
+    box-sizing: border-box;
+    width: 98%;
+    overflow: hidden;
+    font-family: "Open Sans",sans-serif;
+}
+#kd-header{
+	margin-top: 20px;
+}
+#kd-header nav{
+  display: block;
+}
+#kd-header nav ul li{
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+}
+#kd-header .title{
+  font-size: 23px;
+  font-weight: bolder;
+  padding: 3px;
+  margin-right: 20px !important;
+}
+#kd-header .title i{
+  float: left;
+  margin-right: 5px;
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+}
+#kd-header .li{
+  text-transform: uppercase;
+  font-size: 12px;
+  background: #f9f9f9;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  font-weight: bolder;
+  margin-right: 3px !important;
+  cursor: pointer;
+}
+#kd-header .active{
+  background: #0073aa;
+  color: #fff;
+}
+#kd-content{}
+#kd-panel-left{
+  float: left;
+  width: 880px;
+  margin-right: 20px;
+}
+#kd-panel-right{
+  display: block;
+  overflow: hidden;
+  padding: 12px;
+  border-radius: 2px;
+  .background: #f1f1f1;
+}
+#kd-panel-right h2{
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 0;
+  margin-bottom: 10px;
+}
+#kd-panel-right  ul li{
+  overflow: hidden;
+  margin-bottom: 5px !important;
+}
+#kd-panel-right .kd-thumbnail{
+  float: left;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  padding: 3px;
+  border: 1px solid #dcdcdc;
+}
+#kd-panel-right .kd-thumbnail img{
+  width: 100%;
+  height: 100%;
+}
+#kd-panel-right .name, #kd-panel-right .time{
+  overflow: hidden;
+}
+#kd-panel-right .time{
+  font-style: italic;
+  font-size: 12px;
+}
+#kd-map{
+
+}
+#kd-map .header-map{
+
+}
+#kd-map .map{
+  height: 300px;
+  width: 100%;
+  .background: #e0e0e0 url(http://localhost/wordpress/wp-content/themes/twentyfourteen/images/pattern-light.svg);
+  .border-radius: 4px;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-right: 0;
+}
+#kd-map .map ul{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+#kd-map .map ul li{
+  display: inline-block;
+  width: 73px;
+  height: 100%;
+  padding: 0 10px;
+  padding-top: 10px;
+  vertical-align: top;
+}
+#kd-map .map ul li span{
+  display: block;
+  background: #0073aa;
+  color: #fff;
+  text-align: center;
+  padding: 3px 0px;
+  .padding-bottom: 0px;
+  width: 100%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+#kd-map .map ul li b{
+  background: #f1f1f1;
+  border-top: 2px;
+  border: 6px solid #ccc;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#kd-map .footer-map{
+  .margin-top: 5px;
+}
+#kd-map .footer-map ul{
+
+}
+#kd-map .footer-map ul li{
+  display: inline-block;
+  width: 69px;
+  text-align: center;
+  color: #000;
+  padding: 5px 0px;
+  margin: 0px 2px !important;
+}
+#kd-settings p{
+  padding: 5px;
+  background: #f9f9f9;
+  font-style: italic;
+}
+#kd-settings ul li{
+  display: inline-block;
+  width: 33%;
+}
+#kd-settings ul li input{
+  vertical-align: top;
+  margin-right: 10px;
+}
+#kd-settings ul li input:focus{
+  outline: none;
+}
+#kd-settings ul li span{
+  width: 60px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  color: #555555;
+  line-height: 20px;
+}
+#kd-settings ul li div{
+  border-radius: 2px;
+  overflow: hidden;
+}
+#kd-settings .submit{
+  display: block;
+  margin: 0 auto;
+  background: #1871cd;
+  color: #f1f1f1;
+  border: 0;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+#kd-settings .submit:focus{
+  outline: none;
+}
+#kd-sidebar-left, #kd-sidebar-right{
+  width: 48.4%;
+  display: inline-block;
+  vertical-align: top;
+}
+#kd-sidebar-left .kd-price,
+#kd-sidebar-right .kd-price{
+  float: left;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+}
+#kd-sidebar-left .kd-number,
+#kd-sidebar-right .kd-number{
+  display: none;
+  float: right;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background: #f1f1f1;
+}
+#kd-sidebar-left .kd-title,
+#kd-sidebar-right .kd-title{
+  display: block;
+  overflow: hidden;
+  padding: 5px;
+}
+#kd-sidebar-left ul li,
+#kd-sidebar-right ul li{
+  display: block;
+  overflow: hidden;
+  margin-bottom: 5px !important;
+}
+
+/** Class styles**/
+.set-title{
+  overflow: hidden;
+  height: 24px;
+  margin: 10px 0px;
+}
+.set-title span{
+  background: #f1f1f1;
+  padding: 0px 10px;
+  margin-left: 20px;
+}
+.set-title div{
+  border-bottom: 1px solid #ddd;
+  height: 0px;
+  width: 100%;
+  margin-top: -11px;
+}
+.sidebar{
+  display: none;
+}
+.sidebar.active{
+  display: block;
+}
+.vert{
+  display: inline-block;
+  width: 20px;
+}
+.color1, .color2, .color3,
+.color4, .color5, .color6,
+.color7, .color8, .color9{
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+.color1{background: #b73737;}
+.color2{background: #fe9925;}
+.color3{background: #a337b7;}
+.color4{background: #37abb7;}
+.color5{background: #37b75e;}
+.color6{background: #ffec04;}
+.color7{background: #1871cd;}
+.color8{background: #6f6f6f;}
+.color9{background: #000000;}
